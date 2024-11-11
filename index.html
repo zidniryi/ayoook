@@ -19,7 +19,7 @@
 
     .container {
       text-align: center;
-      
+
     }
 
     h1 {
@@ -68,7 +68,7 @@
     function moveNoButton() {
       const noButton = document.getElementById("noButton");
       const randomX = 100 + Math.random() * (Math.min(window.innerWidth - noButton.offsetWidth, 1200) - 100);
-      const randomY = 90 + Math.random() * (Math.min(window.innerHeight - noButton.offsetHeight, 500) - 120);
+      const randomY = 120 + Math.random() * (Math.min(window.innerHeight - noButton.offsetHeight, 600) - 120);
       noButton.style.transform = `translate(${randomX}px, ${randomY}px)`;
     }
 
